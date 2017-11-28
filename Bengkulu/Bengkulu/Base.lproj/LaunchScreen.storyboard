@@ -31,14 +31,14 @@
                                     <constraint firstAttribute="height" constant="220" id="ixY-gI-BM5"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images-1" translatesAutoresizingMaskIntoConstraints="NO" id="MJf-cx-GYN">
-                                <rect key="frame" x="127" y="494" width="121" height="76"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="MJf-cx-GYN">
+                                <rect key="frame" x="127" y="474" width="121" height="96"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="76" id="uSp-EQ-kEO"/>
+                                    <constraint firstAttribute="height" constant="96" id="tFg-c9-QPp"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resep Masakan Khas Bengkulu" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vqv-1q-b2v">
-                                <rect key="frame" x="26.5" y="317" width="322.5" height="25"/>
+                                <rect key="frame" x="26" y="317" width="323" height="25"/>
                                 <fontDescription key="fontDescription" name="Baskerville-BoldItalic" family="Baskerville" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -47,15 +47,15 @@
                         <color key="backgroundColor" red="0.9916905761" green="0.77991443869999999" blue="0.4689428806" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="47k-6z-Mid" firstAttribute="width" secondItem="47k-6z-Mid" secondAttribute="height" multiplier="75:44" id="1Th-ur-7Oz"/>
-                            <constraint firstItem="MJf-cx-GYN" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="3Hb-Lp-dYa"/>
                             <constraint firstItem="47k-6z-Mid" firstAttribute="width" secondItem="47k-6z-Mid" secondAttribute="height" multiplier="75:44" id="7Bf-uH-HMA"/>
+                            <constraint firstItem="MJf-cx-GYN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="127" id="BXG-r6-FfB"/>
                             <constraint firstItem="47k-6z-Mid" firstAttribute="width" secondItem="47k-6z-Mid" secondAttribute="height" multiplier="75:44" id="C7w-co-QvE"/>
-                            <constraint firstItem="MJf-cx-GYN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="127" id="Dxc-Li-ZxO"/>
+                            <constraint firstItem="MJf-cx-GYN" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Ck7-Is-1x1"/>
                             <constraint firstItem="47k-6z-Mid" firstAttribute="width" secondItem="47k-6z-Mid" secondAttribute="height" multiplier="75:44" id="Kbe-mM-Wrd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="MJf-cx-GYN" secondAttribute="bottom" constant="97" id="Ln7-cK-zh3"/>
                             <constraint firstItem="47k-6z-Mid" firstAttribute="width" secondItem="47k-6z-Mid" secondAttribute="height" multiplier="75:44" id="PHe-a5-IiI"/>
-                            <constraint firstItem="Vqv-1q-b2v" firstAttribute="centerX" secondItem="MJf-cx-GYN" secondAttribute="centerX" id="PHh-jb-Jro"/>
                             <constraint firstItem="47k-6z-Mid" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="76" id="Q5r-5E-Z5c"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="MJf-cx-GYN" secondAttribute="bottom" constant="97" id="igA-Gz-uQC"/>
+                            <constraint firstItem="MJf-cx-GYN" firstAttribute="centerX" secondItem="47k-6z-Mid" secondAttribute="centerX" id="gll-SQ-65D"/>
                             <constraint firstItem="Vqv-1q-b2v" firstAttribute="top" secondItem="47k-6z-Mid" secondAttribute="bottom" constant="1" id="jpc-qf-OXy"/>
                             <constraint firstItem="47k-6z-Mid" firstAttribute="width" secondItem="47k-6z-Mid" secondAttribute="height" multiplier="75:44" id="rSQ-Xx-R9J"/>
                             <constraint firstItem="Vqv-1q-b2v" firstAttribute="centerX" secondItem="47k-6z-Mid" secondAttribute="centerX" id="xYI-Ta-47e"/>
@@ -65,11 +65,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
     <resources>
+        <image name="1" width="225" height="225"/>
         <image name="images" width="341" height="148"/>
-        <image name="images-1" width="225" height="225"/>
     </resources>
 </document>
